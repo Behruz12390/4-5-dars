@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 .container {
@@ -75,9 +76,16 @@
     cursor: pointer;
 }
 
+.k:hover {
+    background-color: #0e9d6d;
+}
+
 .k:active {
     transform: translateY(0px);
+    box-shadow: 1px 1px 4px black;
+    background-color: #0bbc81
 }
+
 
 .ata {
     display: flex;
@@ -113,4 +121,80 @@
 iframe {
     width: 592px;
     height: 334px;
+}
+
+.grey {
+    background-color: #E1E7ED;
+    padding-top: 50px;
+}
+
+.azzza {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 50.4px;
+    text-align: center;
+}
+
+.card1 {
+    background-color: #E1E7ED;
+    width: 384px;
+    border-radius: 6px;
+    border: 2px solid #a2a2a2;
+    margin-top: 40px;
+}
+
+.JC {
+    display: flex;
+    justify-content: space-between;
+}
+
+.zak {
+    padding: 40px 30px;
+}
+
+.a20 {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+}
+
+.sd {
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44.8px;
+    text-align: left;
+}
+
+.a {
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+}
+a{
+    color: black;
+}
+.card1:hover{
+    background-color: #1AAB7B;
+    color: #ffffff;
+}
+
+.card1:hover a{
+    color: white;
+}
+.st1{
+    display: flex;
+    justify-content: space-between;
+}
+.st2{
+    display: flex;
+    gap: 70px;
+    padding-bottom: 50px;
 }
