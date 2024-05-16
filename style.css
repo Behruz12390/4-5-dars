@@ -178,23 +178,136 @@ iframe {
     line-height: 28px;
     text-align: left;
 }
-a{
+
+a {
     color: black;
 }
-.card1:hover{
+
+.card1:hover {
     background-color: #1AAB7B;
     color: #ffffff;
 }
 
-.card1:hover a{
+.card1:hover a {
     color: white;
 }
-.st1{
+
+.st1 {
     display: flex;
     justify-content: space-between;
 }
-.st2{
+
+.st2 {
     display: flex;
     gap: 70px;
     padding-bottom: 50px;
+}
+
+.hhh111 {
+    font-family: Plus Jakarta Sans;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 50.4px;
+    padding-bottom: 16px;
+}
+
+.pppp {
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.h1-p {
+    width: 784.13px;
+    height: 197px;
+    margin: 111px 327.94px 60px 327.94px;
+}
+
+form {
+    width: 565px;
+    height: 454px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.form {
+    background-image: url(./assets/images/image\ 1.png);
+    margin-bottom: 51px;
+    width: 1216px;
+    height: 515px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25.2px;
+    text-align: left;
+    color: white;
+}
+
+.hr {
+    width: 463.24px;
+    height: 0px;
+    border: 1px solid grey;
+}
+
+.zakir {
+    width: 463.24px;
+    height: 46px;
+    padding-left: 72.03px;
+    padding-top: 37px;
+    padding-right: 29.73px;
+}
+
+.zakir2 {
+    padding-top: 71px;
+    padding-left: 72.03px;
+    padding-right: 29.73px;
+    padding-bottom: 71px;
+}
+
+.zakir3 {
+    padding-left: 72.03px;
+    padding-right: 29.73px;
+    padding-bottom: 60px;
+}
+
+.zxca {
+    padding: 20px 88.07px;
+    border-radius: 6px;
+    color: white;
+    background-color: #1AAB7B;
+    transform: translateY(-4px);
+    box-shadow: 3px 4px 10px black;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.zxca:hover {
+    background-color: #0e9d6d;
+}
+
+.zxca:active {
+    transform: translateY(0px);
+    box-shadow: 1px 1px 4px black;
+    background-color: #0bbc81
+}
+
+.zakir4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yop {
+    margin-bottom: 51px;
+}
+
+.foot {
+    width: 1440px;
+    height: 278px;
 }
